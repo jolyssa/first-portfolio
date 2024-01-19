@@ -245,7 +245,6 @@ a:focus {
 .hero {
     position: relative;
     width: 100%;
-    margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
     background: linear-gradient(rgb(105, 194, 253), rgb(101, 158, 188)), url(../img/hero-bg.jpg);
@@ -265,8 +264,8 @@ a:focus {
 }
 
 .hero .hero-image img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .hero .hero-content {
@@ -927,6 +926,9 @@ a:focus {
     text-align: center;
 }
 
+.banner .emoji {
+    font-size: 3rem;
+}
 .banner .section-header {
     margin-bottom: 20px;
 }
